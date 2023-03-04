@@ -5,5 +5,5 @@
  Use the above program in the client side and server side to download dependencies.
 
 # `yarn -start` or `npm- start`
- To run the server side after installing dependencies
+ To run the client side and server side both after after installing dependencies,
  
