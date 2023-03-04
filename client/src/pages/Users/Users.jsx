@@ -6,8 +6,6 @@ import UsersList from './UsersList'
 
 const Users = () => {
 
-    const location = useLocation()
-
   return (
     <div className='home-container-1'>
       <LeftSidebar />
