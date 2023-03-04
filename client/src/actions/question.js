@@ -22,7 +22,6 @@ export const fetchAllQuestions = () => async (dispatch) => {
 }
 export const deleteQuestion = (id, navigate) => async (dispatch) => {
   try {
-    const { data } = await api.deleteQuestion(id);
     dispatch(fetchAllQuestions());
     navigate('/');
   } catch (error) {
@@ -31,7 +30,6 @@ export const deleteQuestion = (id, navigate) => async (dispatch) => {
 }
 export const voteQuestion = (id, value, userId) => async (dispatch) => {
   try {
-    const { data } = await api.voteQuestion(id, value, userId);
     dispatch(fetchAllQuestions());
   } catch (error) {
     console.log(error)
@@ -50,7 +48,6 @@ export const postAnswer= (answerData) => async (dispatch) => {
 } 
 export const deleteAnswer = (id, answerId, noOfAnswers) => async(dispatch) => {
   try {
-    const { data } = await api.deleteAnswer(id, answerId, noOfAnswers);
     dispatch(fetchAllQuestions());
   } catch (error) {
     console.log(error)
