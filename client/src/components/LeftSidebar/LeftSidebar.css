@@ -38,3 +38,23 @@
     background-color: rgb(225,225,225);
     border-right: solid 4px #ef8236;
 }
+@media screen and (max-width: 390px)  {
+    .left-sidebar {
+      width: 100%;
+      box-shadow: none;
+      transition: none;
+      transform: none;
+      box-sizing: content-box;
+      font-size: 10px;
+    }
+    .side-nav {
+      margin: 8px 0px;
+      padding: 8px 0px;
+    }
+    .side-nav-links {
+      padding-left: 4px;
+    }
+    header, footer {
+        width: 100%;
+      }
+  }
