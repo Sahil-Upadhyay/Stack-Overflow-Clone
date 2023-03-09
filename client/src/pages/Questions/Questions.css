@@ -114,3 +114,157 @@
     line-height: 18px;
     white-space: pre-line;
 }
+@media only screen and (max-width: 400px)  {
+    .question-detail-page{
+      width: 100%;
+      margin: 20px 0px 0px;
+      padding: 0px;
+    }
+    
+    .question-details-container {
+      margin-bottom: 20px;
+      padding-bottom: 20px;
+      max-width: 100%;
+      width: 100%;
+    }
+    .question-details-container-2{
+        display:none;
+        width: 100%;
+    }
+    
+    .question-votes {
+      padding: 2px 4px;
+    }
+    
+    .question-votes p {
+      font-size: 20px;
+    }
+    
+    .votes-icon {
+      font-size: 24px;
+    }
+    
+    .question-details-container .question-body {
+      line-height: 14px;
+      font-size: 12px;
+      width: 100%;
+    }
+    
+    .question-details-container .question-details-tags p, .post-ans-container p .ans-tags {
+      font-size: 16px;
+      padding: 3px 5px;
+      margin: 3px;
+      border-radius: 2px;
+      /* display: none; */
+    }
+    
+    .question-actions-user button, .edit-question-btn {
+      margin-right: 5px;
+      font-size: 10px;
+      padding: 5px 0px;
+    }
+    
+    .question-actions-user div:nth-child(2) p, .question-actions-user div:nth-child(2) .user-link {
+      font-size: 10px;
+    }
+    
+    .post-ans-container form .post-ans-btn {
+      margin: 5px 5px;
+      padding: 2px 2px;
+      font-size: 10px;
+    }
+    
+    .display-ans p {
+      font-size: 10px;
+      line-height: 14px;
+    }
+    .post-ans-container form textarea{
+        padding: 4px;
+        border: solid 1px rgba(0, 0, 0, 0.3);
+        font-family: 'Roboto', sans-serif;
+        width: 100%;
+        resize: none;
+        font-size: 14px;
+    }
+    .display-ans{
+        padding-bottom: 10px;
+        border-bottom: solid 1px rgba(0, 0, 0, 0.112);
+    }
+}
+@media only screen and (max-width: 415px)  {
+    .question-detail-page{
+      width: 100%;
+      margin: 20px 0px 0px;
+      padding: 0px;
+    }
+    
+    .question-details-container {
+      margin-bottom: 20px;
+      padding-bottom: 20px;
+      max-width: 100%;
+      width: 100%;
+    }
+    .question-details-container-2{
+        display:none;
+        width: 100%;
+    }
+    
+    .question-votes {
+      padding: 2px 4px;
+    }
+    
+    .question-votes p {
+      font-size: 20px;
+    }
+    
+    .votes-icon {
+      font-size: 24px;
+    }
+    
+    .question-details-container .question-body {
+      line-height: 14px;
+      font-size: 13px;
+      width: 100%;
+    }
+    
+    .question-details-container .question-details-tags p, .post-ans-container p .ans-tags {
+      font-size: 16px;
+      padding: 3px 5px;
+      margin: 3px;
+      border-radius: 2px;
+      /* display: none; */
+    }
+    
+    .question-actions-user button, .edit-question-btn {
+      margin-right: 5px;
+      font-size: 10px;
+      padding: 5px 0px;
+    }
+    
+    .question-actions-user div:nth-child(2) p, .question-actions-user div:nth-child(2) .user-link {
+      font-size: 10px;
+    }
+    
+    .post-ans-container form .post-ans-btn {
+      margin: 5px 5px;
+      padding: 2px 2px;
+      font-size: 10px;
+    }
+    
+    .display-ans p {
+      font-size: 10px;
+      line-height: 14px;
+    }
+    .post-ans-container form textarea{
+        padding: 4px;
+        border: solid 1px rgba(0, 0, 0, 0.3);
+        font-family: 'Roboto', sans-serif;
+        width: 100%;
+        resize: none;
+        font-size: 14px;
+    }
+    .display-ans{
+        padding-bottom: 10px;
+        border-bottom: solid 1px rgba(0, 0, 0, 0.112);
+    }
+}
