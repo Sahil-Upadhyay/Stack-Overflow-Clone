@@ -13,3 +13,37 @@
     box-sizing: border-box;
     padding: 24px;
 }
+@media only screen and (max-width:400px) {
+    .home-container-1{
+        min-height: 100%;
+        display: flex;
+        max-width: 100%;
+        width: 100%;
+        justify-content: space-between;
+        margin: 0% auto;
+    }
+    .home-container-2{
+        max-width: 100%;
+        width: 100%;
+        border: 1px solid #d6d9dc;
+        box-sizing: border-box;
+        padding: 15px;
+    }
+}
+@media only screen and (max-width:415px) {
+    .home-container-1{
+        min-height: 100%;
+        display: flex;
+        max-width: 100%;
+        width: 100%;
+        justify-content: space-between;
+        margin: 0% auto;
+    }
+    .home-container-2{
+        max-width: 100%;
+        width: 100%;
+        border: 1px solid #d6d9dc;
+        box-sizing: border-box;
+        padding: 15px;
+    }
+}
