@@ -47,7 +47,7 @@ export const voteQuestion = async (req, res) => {
         const upIndex = question.upVote.findIndex((id) => id === String(userId));
         const downIndex = question.downVote.findIndex((id) => id === String(userId));
 
-        if(value === 'upVote'){
+        if(value === "upVote"){
             if(downIndex !== -1){
                 question.downVote = question.downVote.filter((id) => id !== String(userId));
             }
@@ -57,7 +57,7 @@ export const voteQuestion = async (req, res) => {
                 question.upVote = question.upVote.filter((id) => id !== String(userId));
             }
         }
-        else if(value === 'downVote'){
+        else if(value === "downVote"){
             if(upIndex !== -1){
                 question.upVote = question.upVote.filter((id) => id !== String(userId));
             }
