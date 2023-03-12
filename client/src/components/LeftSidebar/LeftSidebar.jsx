@@ -2,6 +2,8 @@ import React from 'react'
 import "./LeftSidebar.css"
 import {NavLink} from 'react-router-dom'
 import Globe from '../../assets/Globe.svg'
+import * as IoIcons from "react-icons/io";
+
 
 const LeftSidebar = () => {
   return (
@@ -23,6 +25,8 @@ const LeftSidebar = () => {
             <p>Users</p>
 
           </NavLink>
+           <br></br> 
+               <a href="http://community-stackoverflow.epizy.com/" class="stackbtn"><i className='icon'> <IoIcons.IoMdPeople /> </i><span>Community</span></a> 
 
         </div>
 
